@@ -5,11 +5,11 @@ const Landing: React.FC = () => {
         <div>
            <h1 className="text-xl font-extralight">Landing Page</h1>
            <Card />
-           <Button title="small rounded-sm" size="small" shape="rounded-sm"/>
+           <Button title="small rounded-sm" styles="small rounded-sm"/>
            <Card />
-           <Button title="medium rounded-md" size="medium" shape="rounded-md"/>
+           <Button title="medium rounded-md" styles="medium rounded-md"/>
            <Card />
-           <Button title="large rounded-full" size="large" shape="rounded-full"/>
+           <Button title="large rounded-lg" styles="large rounded-lg"/>
         </div>
     )
 }
